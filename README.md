@@ -24,18 +24,18 @@ This project is set up with a single GitHub repository containing both the clien
       cd movie-tracker
   
   2. Run the Backend Server (API)
-  Open your first terminal window:
-    1. Navigate into the backend directory:
-        Bash
-        cd backend
+    Open your first terminal window:
+      1. Navigate into the backend directory:
+         Bash
+         cd backend
     
-    2. Install dependencies (only json-server):
-        Bash
-        npm install
+      2. Install dependencies (only json-server):
+         Bash
+         npm install
     
-    3. Start the JSON server on port 3001:
-        Bash
-        npx json-server --watch db.json --port 3001
+      3. Start the JSON server on port 3001:
+         Bash
+         npx json-server --watch db.json --port 3001
       The API will be available at http://localhost:3001/movies.3. 
   
   3. Run the Frontend Application
@@ -67,6 +67,7 @@ The application is configured to be deployed across two different services using
      Ensure the frontend/public/_redirects file exists to handle client-side routing.
 
 # Project Structure.
+
 ├── backend/                  # JSON Server API (Repo #2 logic)
 │   ├── db.json               # Your data store
 │   └── package.json
