@@ -1,0 +1,58 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "year": 2010,
+      "rating": 2
+    },
+    {
+      "id": "2",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "rating": 4
+    },
+    {
+      "id": "06ba",
+      "title": "The Matrix",
+      "year": 1999,
+      "rating": 5
+    },
+    {
+      "id": "d148",
+      "title": "The Avengers ",
+      "year": 2012,
+      "rating": 4
+    },
+    {
+      "id": "d195",
+      "title": "The Mask of Zoro",
+      "year": 1998,
+      "rating": 3
+    },
+    {
+      "id": "58cb",
+      "title": "Blade Runner",
+      "year": 1982,
+      "rating": 2
+    },
+    {
+      "id": "6d13",
+      "title": "Catwoman",
+      "year": 2004,
+      "rating": 2
+    },
+    {
+      "id": "bcf0",
+      "title": "The Room",
+      "year": 2003,
+      "rating": 1
+    },
+    {
+      "id": "b5e5",
+      "title": "Man of Steel",
+      "year": 2013,
+      "rating": 5
+    }
+  ]
+}

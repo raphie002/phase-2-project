@@ -1,0 +1,126 @@
+:root {
+  --primary-color: #007aff; 
+  --secondary-color: #f0f0f0; 
+  --text-color: #333;
+  --bg-dark: #2c3e50; 
+  --spacing-unit: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto; 
+  min-height: 100vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  background-color: white; 
+}
+
+.app header {
+  background-color: var(--bg-dark);
+  padding: var(--spacing-unit) 0;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.app main {
+  padding: calc(2 * var(--spacing-unit));
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px; 
+  margin: 0 auto;
+  gap: var(--spacing-unit);
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+input[type="text"], 
+input[type="number"] {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.movie-list-container {
+  text-align: center;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 250px;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card h3 {
+  color: var(--primary-color);
+  margin-top: 0;
+}
+
+.movie-card p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .app {
+    box-shadow: none;
+  }
+  .movie-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
