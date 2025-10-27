@@ -1,4 +1,4 @@
-
+// frontend/src/components/MovieCard.js
 import React, { useState } from 'react';
 
 function MovieCard({ movie, API_URL, deleteMovie, updateMovie }) {
