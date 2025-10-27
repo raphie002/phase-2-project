@@ -68,21 +68,21 @@ The application is configured to be deployed across two different services using
 
 # Project Structure.
 
-├── backend/                  # JSON Server API (Repo #2 logic)
-│   ├── db.json               # Your data store
-│   └── package.json
-└── frontend/                 # React Application (Repo #1 logic)
-    ├── public/
-    │   └── _redirects        # Required for Netlify routing
-    ├── src/
-    │   ├── components/       # 5+ Organized components
-    │   │   ├── MovieCard.js  # Renders single movie (U & D logic)
-    │   │   ├── MovieForm.js  # Controlled form (C logic)
-    │   │   ├── MovieList.js
-    │   │   ├── NavBar.js
-    │   │   └── Home.js
-    │   └── App.js            # Main state, GET, and CRUD handlers
-    └── package.json
+   ├── backend/                  # JSON Server API (Repo #2 logic)
+   │   ├── db.json               # Your data store
+   │   └── package.json
+   └── frontend/                 # React Application (Repo #1 logic)
+       ├── public/
+       │   └── _redirects        # Required for Netlify routing
+       ├── src/
+       │   ├── components/       # 5+ Organized components
+       │   │   ├── MovieCard.js  # Renders single movie (U & D logic)
+       │   │   ├── MovieForm.js  # Controlled form (C logic)
+       │   │   ├── MovieList.js
+       │   │   ├── NavBar.js
+       │   │   └── Home.js
+       │   └── App.js            # Main state, GET, and CRUD handlers
+       └── package.json
 
 # Technologies Used
 Frontend: React, React Router DOM
