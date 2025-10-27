@@ -1,4 +1,4 @@
-// frontend/src/components/MovieForm.js
+
 import React, { useState } from 'react';
 
 function MovieForm({ API_URL, addMovie }) {
