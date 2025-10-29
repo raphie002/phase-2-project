@@ -9,7 +9,7 @@ function MovieCard({ movie, API_URL, deleteMovie, updateMovie }) {
       method: 'DELETE',
     })
     .then(() => {
-      deleteMovie(movie.id); 
+      deleteMovie(movie.); 
     })
     .catch(error => console.error("Error deleting movie:", error));
   }
